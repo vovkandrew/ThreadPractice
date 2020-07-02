@@ -1,5 +1,5 @@
-import java.util.concurrent.Callable;
 import java.util.List;
+import java.util.concurrent.Callable;
 
 public class SummingSingleThreadTool implements Callable {
     private List<Integer> digits;
