@@ -9,6 +9,6 @@ public class SummingSingleThreadTool implements Callable {
     }
 
     public Integer call() throws Exception {
-        return digits.stream().mapToInt(Integer::intValue).sum();
+        return digits.stream().reduce(0, Integer::sum);
     }
 }
