@@ -3,7 +3,7 @@ import java.util.concurrent.RecursiveTask;
 
 public class SummingSingleThreadToolPartTwo extends RecursiveTask<Integer> {
     private List<Integer> digits;
-    int numberOfThreads;
+    private int numberOfThreads;
 
     public SummingSingleThreadToolPartTwo(List<Integer> digits, int numberOfThreads) {
         this.digits = digits;
